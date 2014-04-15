@@ -1,0 +1,37 @@
+{
+  "type": "modal",
+  "title": "A test",
+  "body": [
+    {
+      "type": "checkbox",
+      "id": "checkbox1",
+      "label": "Step 1"
+    },
+    {
+      "type": "checkbox",
+      "id": "checkbox2",
+      "label": "Step 2"
+    },
+    {
+      "type": "select",
+      "label": "Selection",
+      "id": "select1",
+      "options": [
+        "Option 1",
+        "Option 2"
+      ]
+    }
+  ],
+  "footer": [
+    {
+      "type": "button",
+      "classes": ["btn-primary"],
+      "label": "Cancel"
+    },
+    {
+      "type": "button",
+      "classes": ["btn-primary"],
+      "label": "OK"
+    }
+  ]
+}
